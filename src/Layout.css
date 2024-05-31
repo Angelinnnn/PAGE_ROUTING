@@ -1,0 +1,74 @@
+.menu
+{
+   position: relative;
+}
+.menu_class
+{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #5b8899;
+    cursor: pointer;
+    color: white;
+}
+.menu_open
+{
+    padding-left: 20px;
+    position: fixed;
+    cursor: pointer;
+}
+header
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #5b8899;
+    color: white;
+    font-size: 19px;
+}
+footer
+{
+   margin-top: 90px;
+    padding-bottom: 15px;
+    background-color: #5b8899;
+    color: white;
+
+}
+body
+{
+    background-color: azure;
+}
+.menu_content
+{
+    font-size: 18px;
+    padding-top: 100px;
+}
+.logout
+{
+    align-items: end;
+}
+.logout_menu
+{
+        position: absolute;
+        top: 0;
+        right: 10px;
+        /*  */
+        z-index: 999; 
+        cursor: pointer;
+        color: white;
+    }
+.logout
+{
+    background-color: #5b8899; 
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.logout:hover
+{
+    color: azure
+}

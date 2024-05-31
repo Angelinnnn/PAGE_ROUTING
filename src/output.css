@@ -1,0 +1,29 @@
+.card
+{
+    border: 1.5px solid black;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+   transition : transform 0.3s, background-color 0.3s, color 0.3s; /* Add transition for smooth scaling */
+
+}
+.details_div
+{
+    margin-left: 200px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    /* margin-left: 200px; */
+}
+.card:hover
+{
+color: white;
+background-color: #5b8899;
+transform: scale(1.05);
+}
